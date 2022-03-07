@@ -17,6 +17,14 @@ Pipeline to use chopchop API using command shell.
 
 ## Contents of the repository
 
+- The bash script `chop_pipeline.sh` that can be used for obtaining target sites for CRISPR.
+- `config_env.yml` which is a file for create the working enviroment.
+
+The output of this bash script includes:
+
+- `<gen>.txt` which are target sites for CRISPR.
+
+There are other outputs less important such as off-targets sequences.
 
 ## Pipeline
   
@@ -125,3 +133,4 @@ You must run this in your terminal shell and type interest genes separated by sp
 ```
 bash chop_pipeline.sh <gen1> <gen2> <gen3> <gen4>
 ```
+## Recomendations
