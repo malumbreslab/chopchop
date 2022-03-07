@@ -13,7 +13,7 @@ Pipeline to use chopchop API using command shell.
 
 ## Workflow
 
-
+![This is an image](/images/workflow.png)
 
 ## Contents of the repository
 
