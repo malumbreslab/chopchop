@@ -135,7 +135,7 @@ bash chop_pipeline.sh <gen1> <gen2> <gen3> <gen4>
 ```
 ## Recomendations
 
-`chopchop.py` has a lot of funtionalities and argument that you can change, it would be well for you observe this inthe chochop [link](https://bitbucket.org/valenlab/chopchop/src/master/) or doing this:
+`chopchop.py` has a lot of funtionalities and arguments that you can change, it would be well for you observe this in the chochop [link](https://bitbucket.org/valenlab/chopchop/src/master/) or doing this:
 
 ```
 ./chopchop.py --help
