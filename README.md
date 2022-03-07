@@ -134,3 +134,9 @@ You must run this in your terminal shell and type interest genes separated by sp
 bash chop_pipeline.sh <gen1> <gen2> <gen3> <gen4>
 ```
 ## Recomendations
+
+`chopchop.py` has a lot of funtionalities and argument that you can change, it would be well for you observe this inthe chochop [link](https://bitbucket.org/valenlab/chopchop/src/master/) or doing this:
+
+```
+./chopchop.py --help
+```
