@@ -104,21 +104,7 @@ mkdir ebwt_folder
 
 Change `config.json` file, replace paths with your own for .2bit genome files, bowtie (.ewbt) genome files and *.gene_table files
 
-This is an example for this case:
-
-{
-  "PATH": {
-    "PRIMER3": "./primer3_core",
-    "BOWTIE": "./bowtie/bowtie",
-    "TWOBITTOFA": "twoBitToFa",
-    "TWOBIT_INDEX_DIR": "/Users/asanchezb/chop/2bit_folder",
-    "BOWTIE_INDEX_DIR": "/Users/asanchezb/chop/ebwt_folder",
-    "ISOFORMS_INDEX_DIR": "/Users/asanchezb/chop/ebwt_transcriptome_folder_and_2bit_of_genome",
-    "ISOFORMS_MT_DIR": "/Users/asanchezb/chop/vienna_MT_folder",
-    "GENE_TABLE_INDEX_DIR": "/Users/asanchezb/chop/genePred_folder"
-  },
-  "THREADS": 1
-}
+Observe config.json in order to see an example.
 
 ### Step 7: Permissions
 
@@ -132,7 +118,7 @@ You must run this in your terminal shell and in gen must type the name of the in
 ./chopchop.py -G hg38 -o results -Target <gen> --scoringMethod DOENCH_2016 -consensusUnion > results/<gen>.txt
 ```
 
-### Step 9: Run pipeline (several gen)
+### Step 9: Run pipeline (several genes)
 
 You must run this in your terminal shell and type interest genes separated by spaces.
 
