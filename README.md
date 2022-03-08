@@ -77,6 +77,7 @@ conda install -c anaconda biopython pandas numpy scipy argparse mysql-python sci
 ```
 mkdir genePred_folder
 ```
+Save `file.gene_table` inside of `genePred_folder`.
 
 ### Step 4: Download genome
 
