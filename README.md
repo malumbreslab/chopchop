@@ -2,7 +2,10 @@
 
 ## Description
 
-Pipeline to use chopchop API using command shell.
+- Analysis: Pipeline to use chopchop API using command shell. Design guides for CRISPR screnning.
+- Date: 11/04/23
+- Author: Agustín Sánchez Belmonte (asanchezb@cnio.es)
+- Institution: Spanish National Research Cancer Centre (CNIO)
 
 ## Table of contents
 
