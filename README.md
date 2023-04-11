@@ -121,7 +121,7 @@ Make sure all these files and programs have proper access rights. You can use th
 
 ### Step 8: Run pipeline (single gen)
 
-You must run this in your terminal shell and in gen must type the name of the interest gen (be carefull, you miust write the well the gen name, some genes have several names, but it is only in one way).
+You must run this in your terminal shell and in gen must type the name of the interest gen (be carefull, you must write gene name correctly, some genes have several names, but it is only in one way).
 
 ```
 ./chopchop.py -G hg38 -o results -Target <gen> --scoringMethod DOENCH_2016 -consensusUnion > results/<gen>.txt
