@@ -119,7 +119,7 @@ Observe `config.json` in order to see an example.
 
 Make sure all these files and programs have proper access rights. You can use the `chmod` command in order to change permissions. Maybe some packages may require compilation for your operating system.
 
-### Step 8: Run pipeline (single gen)
+### Step 8a: Run KO pipeline (single gen) 
 
 You must run this in your terminal shell and in gen must type the name of the interest gen (be carefull, you must write gene name correctly, some genes have several names, but it is only in one way).
 
@@ -131,6 +131,17 @@ You must run this in your terminal shell and in gen must type the name of the in
 - -Target Target genes or regions
 - -t Target the whole gene CODING/WHOLE/UTR5/UTR3/SPLICE
 - -consensusUnion this option specifies union of isoforms
+
+### Step 8b: Run Activation pipeline (single gen)
+
+You must run this in your terminal shell and in gen must type the name of the interest gen (be carefull, you must write gene name correctly, some genes have several names, but it is only in one way).
+
+```
+./chopchop.py -G hg38 -o results -Target <gen> --scoringMethod DOENCH_2016 -consensusUnion -t PROMOTER -TDP 0 -TUP 300 > results/<gen>.txt
+```
+- -t Promoter
+- -TDP how many bp to target downstream of TSS
+- -TUP how many bp to target upstream of TSS
 
 ### Step 9: Run pipeline (several genes)
 
