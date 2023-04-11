@@ -132,6 +132,8 @@ You must run this in your terminal shell and in gen must type the name of the in
 - -t Target the whole gene CODING/WHOLE/UTR5/UTR3/SPLICE
 - -consensusUnion this option specifies union of isoforms
 
+When the gene is very small, the design the guides will fail and -t WHOLE is recommended.
+
 ### Step 8b: Run Activation pipeline (single gen)
 
 You must run this in your terminal shell and in gen must type the name of the interest gen (be carefull, you must write gene name correctly, some genes have several names, but it is only in one way).
