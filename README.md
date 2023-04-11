@@ -124,8 +124,13 @@ Make sure all these files and programs have proper access rights. You can use th
 You must run this in your terminal shell and in gen must type the name of the interest gen (be carefull, you must write gene name correctly, some genes have several names, but it is only in one way).
 
 ```
-./chopchop.py -G hg38 -o results -Target <gen> --scoringMethod DOENCH_2016 -consensusUnion > results/<gen>.txt
+./chopchop.py -G hg38 -o results -Target <gen> --scoringMethod DOENCH_2016 -consensusUnion -t CODING > results/<gen>.txt
 ```
+- -G is the genome to search
+- -o output folder
+- -Target Target genes or regions
+- -t Target the whole gene CODING/WHOLE/UTR5/UTR3/SPLICE
+- -consensusUnion this option specifies union of isoforms
 
 ### Step 9: Run pipeline (several genes)
 
