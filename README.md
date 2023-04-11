@@ -113,7 +113,7 @@ mkdir ebwt_folder
 
 Change `config.json` file, replace paths with your own for .2bit genome files, bowtie (.ewbt) genome files and *.gene_table files
 
-Observe config.json in order to see an example.
+Observe `config.json` in order to see an example.
 
 ### Step 7: Permissions
 
